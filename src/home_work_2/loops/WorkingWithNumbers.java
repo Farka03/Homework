@@ -20,7 +20,7 @@ public class WorkingWithNumbers {
 
     }
 
-    //Данная функция находит наибольшую цифру натурального числа
+    //1.5.1 Данная функция находит наибольшую цифру натурального числа
     public static int LargestDigit(){
         Scanner scan = new Scanner(System.in);
         System.out.print("Please, enter the number : ");
@@ -38,7 +38,7 @@ public class WorkingWithNumbers {
         return largestValue;
     }
 
-    //Данная функция высчитывает вероятность четных чисел
+    //1.5.2 Данная функция высчитывает вероятность четных чисел
     public static int evenNum(){
         int counter = 1;
         int[] array = new int[333];
@@ -52,7 +52,7 @@ public class WorkingWithNumbers {
         return counter;
     }
 
-    //Данная функция считает четные и нечетные цифры числа
+    //1.5.3 Данная функция считает четные и нечетные цифры числа
     public static int evenOrOdd() {
         Scanner scan = new Scanner(System.in);
         System.out.print("Please, enter the number : ");
@@ -76,7 +76,7 @@ public class WorkingWithNumbers {
         return counterEven;
     }
 
-    //Ряд Фибоначчи
+    //1.5.4 Ряд Фибоначчи
     public static String row(){
         StringBuilder finalResult = new StringBuilder(" ");
         int first = 1;
@@ -106,7 +106,7 @@ public class WorkingWithNumbers {
         }
         return finalResult.toString();
     }
-    //Данная функция выводит ряд чисел в диапазоне с шагом
+    //1.5.5 Данная функция выводит ряд чисел в диапазоне с шагом
     public static String maxDiapason(){
         int minimum = 0;
         StringBuilder result = new StringBuilder("0");
@@ -123,7 +123,7 @@ public class WorkingWithNumbers {
         return result.toString();
     }
 
-    //Данная функция переворачивает числа
+    //1.5.6 Данная функция переворачивает числа
     public static String coup(){
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the number : ");
