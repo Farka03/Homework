@@ -5,7 +5,7 @@ import home_work_2.utils.SortsUtils;
 
 //Для этого задания используем ранее созданные классы и методы, в которых прописана вся логика и просто вызываем их.
 public class SortsMain {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int[] firstArray = {1, 2, 3, 4, 5, 6};
         SortsUtils.bubble(firstArray);
         System.out.println("Bubble sort array : " + SortsUtils.arrayBubbleToString(firstArray));
@@ -30,7 +30,7 @@ public class SortsMain {
         int[] fourthArray = {};
         SortsUtils.bubble(fourthArray);
         System.out.println("Bubble sort array : " + SortsUtils.arrayBubbleToString(fourthArray));
-        int[] fourthArray2= {};
+        int[] fourthArray2 = {};
         SortsUtils.shake(fourthArray2);
         System.out.println("Shaker sort array : " + SortsUtils.arrayShakerToString(fourthArray2));
 
@@ -41,10 +41,20 @@ public class SortsMain {
         SortsUtils.shake(fifthArray2);
         System.out.println("Shaker sort array : " + SortsUtils.arrayShakerToString(fifthArray2));
 
-        SortsUtils.bubble(ArraysUtils.arrayFromConsole());
-        SortsUtils.shake(ArraysUtils.arrayFromConsole());
+        int[] sixthArray = ArraysUtils.arrayFromConsole();
+        SortsUtils.bubble(sixthArray);
+        System.out.println("Bubble sort array : " + SortsUtils.arrayBubbleToString(sixthArray));
 
-        SortsUtils.bubble(ArraysUtils.arrayRandom(50, 100));
-        SortsUtils.shake(ArraysUtils.arrayRandom(50, 100));
+        int[] seventhArray = ArraysUtils.arrayFromConsole();
+        SortsUtils.shake(seventhArray);
+        System.out.println("Shaker sort array : " + SortsUtils.arrayShakerToString(seventhArray));
+
+        int[] eighthArray = ArraysUtils.arrayRandom(50, 100);
+        SortsUtils.bubble(eighthArray);
+        System.out.println("Bubble sort array : " + SortsUtils.arrayBubbleToString(eighthArray));
+
+        int[] ninthArray = ArraysUtils.arrayRandom(50, 100);
+        SortsUtils.shake(eighthArray);
+        System.out.println("Shake sort array : " + SortsUtils.arrayShakerToString(ninthArray));
     }
 }

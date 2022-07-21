@@ -87,7 +87,7 @@ public class WorkWithArrays {
                 i--;
             }
         }
-        System.out.println("Your squeezed array : ");
+        System.out.print("Your squeezed array : ");
         for (int i = 0; i < array.length; i++) {
             stringBuilder.append(i + " ");
         }

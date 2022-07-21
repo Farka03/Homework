@@ -6,12 +6,12 @@ public class OverflowProblemWithNumbers {
         System.out.println("Result after overflow : " + factorial(num));
     }
 
-    public static long factorial(long number){
+    public static long factorial(long number) {
         long result = number;
         long beforeOverflow = 0;
-        for (int i = 3; ; ) { //Сюда также можно подставить и 188, и -19, и другие числа
+        for (int i = 3; ; ) { //Сюда также можно подставить и 188. -19 будет работать некорректно!
             result = result * i;
-            if (result < 0){
+            if (result < 0) {
                 System.out.println("Result before overflow : " + beforeOverflow);
                 break;
             }

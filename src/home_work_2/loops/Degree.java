@@ -22,10 +22,10 @@ public class Degree {
         }
     }
 
-    public static double productOfNumbers(double a, int b){ //Делаем метод с аргументами(множитель, степень в которую возводим)
+    public static double productOfNumbers(double a, int b) { //Делаем метод с аргументами(множитель, степень в которую возводим)
         double result = 1; //Инициализируем переменную
-        for (int i=1; i<=b; i++){ //Цикл
-            result = result*a; //Конечный результат, то есть число возведенное в степень
+        for (int i = 1; i <= b; i++) { //Цикл
+            result = result * a; //Конечный результат, то есть число возведенное в степень
         }
         return result; //Возвращаем результат
     }

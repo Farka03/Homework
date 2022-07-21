@@ -101,6 +101,7 @@ public class ArraysIteration {
         } while (i < array5.length);
         return array5;
     }
+
     public static int[] whileCycleSecond(int[] array6) {
         int i = 0;
         while (i < array6.length) {
@@ -111,6 +112,7 @@ public class ArraysIteration {
         }
         return array6;
     }
+
     public static int[] forCycleSecond(int[] array7) {
         for (int i = 1; i < array7.length; i += 2) {
             if (i == 1) {
@@ -122,6 +124,7 @@ public class ArraysIteration {
         }
         return array7;
     }
+
     public static int[] forEachCycleSecond(int[] array8) {
         int i = 1;
         for (int element : array8) {
@@ -134,23 +137,25 @@ public class ArraysIteration {
     }
 
     //2.2.3, тут мы выводим все элементы массивы в обратном порядке
-    public static int[] doWhileCycleReverse(int[] array9){
-        int i = array9.length-1;
+    public static int[] doWhileCycleReverse(int[] array9) {
+        int i = array9.length - 1;
         do {
             System.out.println(array9[i]);
             i--;
         } while (i >= 0);
         return array9;
     }
-    public static int[] whileCycleReverse(int[] array10){
-        int i = array10.length-1;
-        while(i >= 0){
+
+    public static int[] whileCycleReverse(int[] array10) {
+        int i = array10.length - 1;
+        while (i >= 0) {
             System.out.println(array10[i]);
             i--;
         }
         return array10;
     }
-    public static int[] forCycleReverse(int[] array11){
+
+    public static int[] forCycleReverse(int[] array11) {
         for (int i = array11.length - 1; i >= 0; i--) {
             if (i == array11.length - 1) {
                 System.out.print(array11[i]);
@@ -160,7 +165,8 @@ public class ArraysIteration {
         }
         return array11;
     }
-    public static int[] forEachCycleReverse(int[] array12){
+
+    public static int[] forEachCycleReverse(int[] array12) {
         int[] array1 = new int[array12.length];
         int i = array12.length - 1;
         for (int element : array12) {

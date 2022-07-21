@@ -43,6 +43,7 @@ public class SortsUtils {
             }
         }
     }
+
     public static String arrayBubbleToString(int[] arr) {
         StringBuilder stringBuilder = new StringBuilder();
 
@@ -91,6 +92,7 @@ public class SortsUtils {
             left++;
         }
     }
+
     public static String arrayShakerToString(int[] arr) {
         StringBuilder stringBuilder = new StringBuilder();
 

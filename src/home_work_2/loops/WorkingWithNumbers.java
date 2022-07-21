@@ -17,21 +17,20 @@ public class WorkingWithNumbers {
         System.out.println(maxDiapason());
         //Ответ для 1.5.6
         System.out.println("Your couped number : " + coup());
-
     }
 
     //1.5.1 Данная функция находит наибольшую цифру натурального числа
-    public static int LargestDigit(){
+    public static int LargestDigit() {
         Scanner scan = new Scanner(System.in);
         System.out.print("Please, enter the number : ");
         String number = scan.nextLine();
 
         char[] firstArray = number.toCharArray();
-        int [] secondArray = new int[number.length()];
+        int[] secondArray = new int[number.length()];
         int largestValue = Integer.MIN_VALUE;
         for (int i = 0; i < number.length(); i++) {
             secondArray[i] = Character.getNumericValue(firstArray[i]);
-            if (secondArray[i] > largestValue){
+            if (secondArray[i] > largestValue) {
                 largestValue = secondArray[i];
             }
         }
@@ -39,13 +38,13 @@ public class WorkingWithNumbers {
     }
 
     //1.5.2 Данная функция высчитывает вероятность четных чисел
-    public static int evenNum(){
+    public static int evenNum() {
         int counter = 1;
         int[] array = new int[333];
         Random rand = new Random();
-        for(int i = 0; i < array.length; i++){
+        for (int i = 0; i < array.length; i++) {
             array[i] = rand.nextInt();
-            if(array[i] % 2 == 0){
+            if (array[i] % 2 == 0) {
                 counter++;
             }
         }
@@ -71,13 +70,13 @@ public class WorkingWithNumbers {
                 counterOdd++;
             }
         }
-        System.out.print("The number of odd numbers : "  + counterOdd);
+        System.out.print("The number of odd numbers : " + counterOdd);
         System.out.println();
         return counterEven;
     }
 
     //1.5.4 Ряд Фибоначчи
-    public static String row(){
+    public static String row() {
         StringBuilder finalResult = new StringBuilder(" ");
         int first = 1;
         int second = 2;
@@ -106,8 +105,9 @@ public class WorkingWithNumbers {
         }
         return finalResult.toString();
     }
+
     //1.5.5 Данная функция выводит ряд чисел в диапазоне с шагом
-    public static String maxDiapason(){
+    public static String maxDiapason() {
         int minimum = 0;
         StringBuilder result = new StringBuilder("0");
         Scanner scan = new Scanner(System.in);
@@ -116,7 +116,7 @@ public class WorkingWithNumbers {
         System.out.print("Please, enter the step : ");
         int step = scan.nextInt();
 
-        while (minimum < maxValue){
+        while (minimum < maxValue) {
             minimum += step;
             result.append(" ").append(minimum);
         }
@@ -124,14 +124,14 @@ public class WorkingWithNumbers {
     }
 
     //1.5.6 Данная функция переворачивает числа
-    public static String coup(){
+    public static String coup() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the number : ");
         String number = scanner.nextLine();
 
         StringBuilder result = new StringBuilder();
         char[] array = number.toCharArray();
-        for (int i = array.length-1; i >= 0; i--){
+        for (int i = array.length - 1; i >= 0; i--) {
             result.append(array[i]);
         }
         return result.toString();

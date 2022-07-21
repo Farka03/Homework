@@ -18,13 +18,14 @@ public class Multiplication {
             System.out.println("Oops, it is no the number");
         }
     }
+
     //В методе multiplyNumbers умножает цифры друг на друга и возвращает результат, то есть произведение
     public static long multiplyNumbers(int number) {
         String num = Integer.toString(number);
         long result = 1;
 
         int[] array = new int[num.length()];
-        for (int i = array.length - 1; i >= 0 ; i--) {
+        for (int i = array.length - 1; i >= 0; i--) {
             if (number > 9) {
                 array[i] = number % 10;
                 number /= 10;
