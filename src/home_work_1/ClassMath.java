@@ -1,5 +1,4 @@
 package home_work_1;
-
 public class ClassMath {
     public static void main(String[] args){
         int minusOne = -1;
