@@ -16,6 +16,5 @@ public class FactorialCycle {
             result *= ++i; //Считаем результат
         }
         System.out.print(i + " = " + result); //Выводим результат
-
     }
 }
