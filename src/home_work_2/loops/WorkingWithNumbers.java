@@ -21,9 +21,9 @@ public class WorkingWithNumbers {
 
     //1.5.1 Данная функция находит наибольшую цифру натурального числа
     public static int LargestDigit() {
-        Scanner scan = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Please, enter the number : ");
-        String number = scan.nextLine();
+        String number = scanner.nextLine();
 
         char[] firstArray = number.toCharArray();
         int[] secondArray = new int[number.length()];
@@ -41,9 +41,9 @@ public class WorkingWithNumbers {
     public static int evenNum() {
         int counter = 1;
         int[] array = new int[333];
-        Random rand = new Random();
+        Random random = new Random();
         for (int i = 0; i < array.length; i++) {
-            array[i] = rand.nextInt();
+            array[i] = random.nextInt();
             if (array[i] % 2 == 0) {
                 counter++;
             }
@@ -53,9 +53,9 @@ public class WorkingWithNumbers {
 
     //1.5.3 Данная функция считает четные и нечетные цифры числа
     public static int evenOrOdd() {
-        Scanner scan = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Please, enter the number : ");
-        String number = scan.nextLine();
+        String number = scanner.nextLine();
 
         char[] firstArray = number.toCharArray();
         int[] secondArray = new int[number.length()];
@@ -110,11 +110,11 @@ public class WorkingWithNumbers {
     public static String maxDiapason() {
         int minimum = 0;
         StringBuilder result = new StringBuilder("0");
-        Scanner scan = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Please, enter the diapason maximum : ");
-        int maxValue = scan.nextInt();
+        int maxValue = scanner.nextInt();
         System.out.print("Please, enter the step : ");
-        int step = scan.nextInt();
+        int step = scanner.nextInt();
 
         while (minimum < maxValue) {
             minimum += step;

@@ -27,6 +27,7 @@ public class Degree {
         for (int i = 1; i <= b; i++) { //Цикл
             result = result * a; //Конечный результат, то есть число возведенное в степень
         }
+
         return result; //Возвращаем результат
     }
 }

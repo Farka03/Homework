@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cd8fa7e-8f2b-4ebc-b749-188774276403" name="Changes" comment="Внес иземенения во вторую домашку">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_work_3/calcs/additional/CalculatorWithCounterAutoSuper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_work_3/calcs/additional/CalculatorWithCounterClassic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_work_3/calcs/simple/CalculatorWithCounterAutoAgregation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_work_3/calcs/simple/CalculatorWithCounterAutoComposite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_work_3/calcs/simple/CalculatorWithMathCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_work_3/calcs/simple/CalculatorWithMathExtends.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_work_3/calcs/simple/CalculatorWithOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_work_3/runners/CalculatorWithCounterClassicMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_work_3/runners/CalculatorWithCounterDelegateAgregationMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_work_3/runners/CalculatorWithCounterDelegateCompositeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_work_3/runners/CalculatorWithMathCopyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_work_3/runners/CalculatorWithMathExtendsMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_work_3/runners/CalculatorWithOperatorMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home_work_3/runners/WithoutCalculatorMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home_work_2/loops/Degree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home_work_2/loops/Degree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home_work_2/loops/WorkingWithNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home_work_2/loops/WorkingWithNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/Homework_For_Academy/home_work_2/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/production/Homework_For_Academy/home_work_2/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/Homework_For_Academy/home_work_2/arrays/ForEachOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/production/Homework_For_Academy/home_work_2/arrays/ForEachOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/Homework_For_Academy/home_work_2/arrays/ForOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/production/Homework_For_Academy/home_work_2/arrays/ForOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/Homework_For_Academy/home_work_2/arrays/IArraysOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/production/Homework_For_Academy/home_work_2/arrays/IArraysOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/Homework_For_Academy/home_work_2/loops/Degree.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/production/Homework_For_Academy/home_work_2/loops/Degree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/Homework_For_Academy/home_work_2/loops/WorkingWithNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/production/Homework_For_Academy/home_work_2/loops/WorkingWithNumbers.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,16 +51,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Homework_For_Academy/src",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Homework_For_Academy/src&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Homework_For_Academy\src\home_work_2\block_scheme" />
@@ -106,6 +128,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Homework_For_Academy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Homework_For_Academy" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
