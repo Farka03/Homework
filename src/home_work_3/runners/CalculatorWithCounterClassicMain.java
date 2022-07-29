@@ -1,7 +1,6 @@
 package home_work_3.runners;
 
 import home_work_3.calcs.additional.CalculatorWithCounterClassic;
-import home_work_3.calcs.simple.CalculatorWithMathCopy;
 import home_work_3.calcs.simple.CalculatorWithMathExtends;
 
 public class CalculatorWithCounterClassicMain extends CalculatorWithMathExtends {

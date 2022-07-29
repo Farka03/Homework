@@ -1,6 +1,5 @@
 package home_work_3.calcs.simple;
 
-import home_work_2.loops.Multiplication;
 import home_work_3.calcs.api.ICalculator;
 
 public class CalculatorWithOperator implements ICalculator {

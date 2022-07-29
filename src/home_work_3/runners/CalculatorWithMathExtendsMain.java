@@ -13,5 +13,4 @@ public class CalculatorWithMathExtendsMain {
         double addition = calculatorWithMathExtends.addition(4.1, sumTwoResult);
         System.out.println(addition); //Ответ примера
     }
-
 }

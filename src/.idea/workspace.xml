@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40044317-b4f3-45ff-b4b6-8a0917462992" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home_work_3/calcs/additional/CalculatorWithCounterAutoAgregation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home_work_3/calcs/additional/CalculatorWithCounterAutoAgregationInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home_work_3/calcs/additional/CalculatorWithCounterAutoChoiceAgregation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home_work_3/calcs/additional/CalculatorWithCounterAutoComposite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home_work_3/calcs/additional/CalculatorWithCounterAutoSuper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home_work_3/calcs/additional/CalculatorWithCounterClassic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home_work_3/calcs/api/ICalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home_work_3/calcs/simple/CalculatorWithMathCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home_work_3/calcs/simple/CalculatorWithMathExtends.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home_work_3/calcs/simple/CalculatorWithOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home_work_3/runners/CalculatorWithCounterAutoCompositeInterfaceMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home_work_3/runners/CalculatorWithCounterAutoSuperMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home_work_3/runners/CalculatorWithCounterClassicMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home_work_3/runners/CalculatorWithCounterDelegateAgregationMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home_work_3/runners/CalculatorWithCounterDelegateChoiceAgregationMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home_work_3/runners/CalculatorWithCounterDelegateCompositeMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home_work_3/runners/CalculatorWithMathCopyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home_work_3/runners/CalculatorWithMathExtendsMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home_work_3/runners/CalculatorWithOperatorMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home_work_3/runners/WithoutCalculatorMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home_work_2/loops/Degree.java" beforeDir="false" afterPath="$PROJECT_DIR$/home_work_2/loops/Degree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home_work_2/loops/WorkingWithNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/home_work_2/loops/WorkingWithNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_For_Academy/home_work_2/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework_For_Academy/home_work_2/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_For_Academy/home_work_2/arrays/ForEachOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework_For_Academy/home_work_2/arrays/ForEachOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_For_Academy/home_work_2/arrays/ForOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework_For_Academy/home_work_2/arrays/ForOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_For_Academy/home_work_2/arrays/IArraysOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework_For_Academy/home_work_2/arrays/IArraysOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_For_Academy/home_work_2/loops/Degree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework_For_Academy/home_work_2/loops/Degree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework_For_Academy/home_work_2/loops/WorkingWithNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework_For_Academy/home_work_2/loops/WorkingWithNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,14 +29,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Homework_For_Academy/src&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Homework_For_Academy/src/home_work_3"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.CalculatorWithCounterAutoCompositeInterfaceMain">
     <configuration name="CalculatorWithCounterAutoCompositeInterfaceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="home_work_3.runners.CalculatorWithCounterAutoCompositeInterfaceMain" />

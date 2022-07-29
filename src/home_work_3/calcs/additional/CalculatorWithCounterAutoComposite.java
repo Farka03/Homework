@@ -1,7 +1,5 @@
 package home_work_3.calcs.additional;
 
-import home_work_3.calcs.additional.CalculatorWithCounterAutoSuper;
-
 public class CalculatorWithCounterAutoComposite {
     CalculatorWithCounterAutoSuper calculatorWithCounterAutoSuper = new CalculatorWithCounterAutoSuper(); //Объект
 
